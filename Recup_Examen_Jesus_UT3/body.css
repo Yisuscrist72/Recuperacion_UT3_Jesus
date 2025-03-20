@@ -1,0 +1,34 @@
+:root {
+    --tamañoTexto: 1rem;
+    --colorTexto: #404040;
+
+    --colorFondoMain: #ffffff;
+    --colorBordeHeader: #f2f2f2;
+    --tamañoTextoLogo: 1.6rem;
+    --tamañoTextoMenu: 1.1rem;
+    --tamañoLineaMenu: 50px;
+    --colorFondoBoton: #4169e1;
+    --tamañoTextoHamburguesa: 1.1rem;
+    --escala: 1.1;
+
+    --colorFondoHeader: #fbfdfe;
+    --colorInput: #666666;
+    --colorBordeInput: #cccccc;
+
+    --colorFondoFooter: #f2f2f2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: var(--tamañoTexto);
+    color: var(--colorTexto);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

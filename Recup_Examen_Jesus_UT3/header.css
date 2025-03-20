@@ -1,0 +1,61 @@
+/* header */
+header {
+    background-color: var(--colorFondoHeader);
+    border-bottom: 1px solid var(--colorBordeHeader);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* nav */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .logo */
+.logo {
+    padding: 0 30px;
+    font-size: var(--tamañoTextoLogo);
+}
+
+/* .menu */
+.menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: var(--tamañoTextoMenu);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--colorTexto);
+    display: block;
+    line-height: var(--tamañoLineaMenu);
+    padding: 0px 20px;
+    
+}
+nav a:hover {
+    transform: scale(1.05);
+}
+
+nav a.suscribete {
+    background-color: #4169e1;
+    color: var(--colorFondoHeader);
+}
+nav a.suscribete:hover {
+    background-color: var(--colorFondoMain);
+    color: rgb(7, 98, 255);
+}
+
+/* hamburguesa */
+.hamburguesa {
+    display: none;
+    padding: 0px 10px;
+    line-height: 50px;
+}
+
+.hamburguesa i{
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,32 @@
+@media (max-width:880px){
+    .menu{
+        display: none;
+    }
+    .hamburguesa{
+        display: block;
+    }
+}
+
+@media (max-width:768px){
+
+    section.tarjetas {
+        background-color: var();
+        padding: 20px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+
+
+}
+
+@media (max-width:568px){
+
+    section.tarjetas {
+        background-color: var();
+        padding: 20px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 80px;
+    }
+}

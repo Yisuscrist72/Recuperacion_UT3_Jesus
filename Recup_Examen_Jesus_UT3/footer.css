@@ -1,0 +1,10 @@
+/* footer */
+footer {
+    background-color: var(--colorFondoFooter);
+    padding: 20px 0;
+    font-size: 1.1rem;
+    line-height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
